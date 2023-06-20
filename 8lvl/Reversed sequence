@@ -1,0 +1,5 @@
+def reverse_seq(a):
+    if a > 0:
+        return(list(range(a, 0, -1)))
+    else:
+        return("pick a positive number")

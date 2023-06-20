@@ -1,0 +1,2 @@
+def remove_every_other(my_list):
+    return [i for e,i in enumerate(my_list) if e % 2 == 0]

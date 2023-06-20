@@ -1,0 +1,3 @@
+def merge_arrays(arr1, arr2):
+    result = set()
+    return sorted(list(result.union(arr1,arr2)))
